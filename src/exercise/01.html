@@ -30,7 +30,8 @@
     <!-- <div id="root"></div> -->
     <script type="module">
       const root = document.createElement('root')
-      root.id = 'root'
+      // root.id = 'root'
+      root.setAttribute('id', 'root')
       document.body.appendChild(root)
       const div = document.createElement('div')
       div.textContent = 'Hello World!'
